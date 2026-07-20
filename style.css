@@ -4,7 +4,13 @@ body {
     line-height: 1.6;
     padding: 20px;
 }
-
+.logo{
+display: flex;
+    flex-direction: column; /* بيخلي العناصر تنزل تحت بعض بالترتيب */
+    align-items: center;    /* بيخلي الشعار والكلام في النص بالظبط */
+    text-align: center;
+    gap: 15px;
+}
 h1, h3, p {
     margin-bottom: 12px;
 }
