@@ -4,8 +4,8 @@ body {
     line-height: 1.6;
     padding: 20px;
 }
-.logo{
-display: flex;
+.logo section {
+    display: flex;
     flex-direction: column; /* بيخلي العناصر تنزل تحت بعض بالترتيب */
     align-items: center;    /* بيخلي الشعار والكلام في النص بالظبط */
     text-align: center;
@@ -36,7 +36,7 @@ p {
 }
 
 .P1 {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 a {
@@ -103,5 +103,5 @@ img {
     position: absolute;
     right: 5px;
     top: 10px;
-    width: 100px;
+    width: 120px;
 }
